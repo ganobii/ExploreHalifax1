@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Explore Halifax</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_restaurants">To Eat</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_attractions">To See</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_events">To Do</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_lodging">To Stay</string>
+
+</resources>
