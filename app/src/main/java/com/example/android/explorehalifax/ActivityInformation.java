@@ -1,10 +1,12 @@
 package com.example.android.explorehalifax;
 
+import java.io.Serializable;
+
 /**
  * Created by Gavin on 10/10/2017.
  */
 
-public class ActivityInformation {
+public class ActivityInformation implements Serializable {
 
     // String value for the activity's name
     private String mActivityName;
