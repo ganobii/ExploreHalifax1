@@ -8,6 +8,8 @@ import java.io.Serializable;
 
 public class ActivityInformation implements Serializable {
 
+    public static final String DETAIL_VIEW_DATA = "detailViewData";
+
     // String value for the activity's name
     private String mActivityName;
 
@@ -29,22 +31,18 @@ public class ActivityInformation implements Serializable {
     // String value for the activity's website
     private String mActivityWebsite;
 
-    /**
-     * Create a new ActivityInformation object.
-     *
-     * @param activityName is the name for the specific activity (restaurant, attraction, etc.
-     * @param activityAddress is the address of the activity.
-     */
+
+    //Create a new ActivityInformation object.
     public ActivityInformation(String activityName, String activityAddress, int imageResourceId,
                                String activityPrice, String activityDescription,
-                               String activityPhone, String activityWebsite) {
+                               String activityWebsite, String activityPhone) {
         mActivityName = activityName;
         mActivityAddress = activityAddress;
         mImageResourceId = imageResourceId;
         mActivityPrice = activityPrice;
         mActivityDescription = activityDescription;
-        mActivityPhone = activityPhone;
         mActivityWebsite = activityWebsite;
+        mActivityPhone = activityPhone;
     }
 
     // Get the activity name.

@@ -36,6 +36,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
+        // viewPager text depending on position.
         if (position == 0) {
             return new RestaurantFragment();
         } else if (position == 1) {
@@ -52,6 +53,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
+        // Tab text depending on position.
         if (position == 0) {
             return mContext.getString(R.string.category_restaurants);
         } else if (position == 1) {

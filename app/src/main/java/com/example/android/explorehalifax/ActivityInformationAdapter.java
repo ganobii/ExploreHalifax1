@@ -37,7 +37,7 @@ public class ActivityInformationAdapter extends ArrayAdapter<ActivityInformation
                     R.layout.list_item, parent, false);
         }
 
-        // Get the {@link Word} object located at this position in the list
+        // Get the {@link ActivityInformation} object located at this position in the list
         ActivityInformation currentActivity = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID activity_name.

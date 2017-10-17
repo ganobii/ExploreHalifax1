@@ -1,6 +1,5 @@
 package com.example.android.explorehalifax;
 
-import android.content.Context;
 import android.widget.Toast;
 
 /**
